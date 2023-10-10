@@ -1,0 +1,621 @@
+/* Coolvetica Font: https://typodermicfonts.com/coolvetica/ */
+
+@font-face {
+    font-family: 'coolvetica rg';
+    src: url('../Fonts/coolvetica/coolvetica rg.otf') format('opentype');
+}
+
+/* Roboto Font: https://fonts.google.com/specimen/Roboto */
+
+@font-face {
+    font-family: 'roboto-regular';
+    src: url('../Fonts/roboto/roboto-regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'roboto-bold';
+    src: url('../Fonts/roboto/roboto-bold.ttf') format('truetype');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    margin: 0;
+}
+
+@media (min-width: 1400px) {
+    .nav-item {
+        margin-left: 2em;
+    }
+
+    .nav-item:hover {
+        background: #11009E;
+        border-radius: 25px;
+    }
+
+    #home-text {
+        width: fit-content;
+        float: none;
+    }
+
+    #home-text a {
+        margin-left: 100px;
+    }
+
+    #home-img {
+        width: fit-content;
+        height: auto;
+        float: right;
+        margin-top: -320px;
+        margin-right: 50px;
+    }
+
+    .project-grid {
+        margin-left: 36%;
+    }
+
+    #contact h2 {
+        padding: 5%;
+        margin-left: 25%;
+        border-right: 3px solid white;
+    }
+
+    #contact-icons {
+        margin-left: 55%;
+        margin-top: -230px;
+    }
+
+    #TechDay2017 #img-div-1 {
+        width: 15%;
+        margin-left: 20%;
+    }
+
+    #TechDay2017 #text-div-1 {
+        width: 30%;
+        margin: -33% auto 0 36%;
+    }
+
+    #TechDay2017 #img-div-2 {
+        width: 10%;
+        margin-left: 36%; 
+    }
+
+    #TechDay2017 #github-btn {
+        margin-top: 40px;
+        margin-left: -70px;
+    }
+
+    #TechDay2018 #img-div-1 {
+        width: 45%;
+        margin-bottom: 20px;
+        margin-left: 28%;
+    }
+
+    #TechDay2018 #text-div-1 {
+        width: 45%;
+        margin-left: 28%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .nav-item {
+        margin-left: 2em;
+        margin-right: 0;
+    }
+
+    .nav-item:hover {
+        background: #11009E;
+        border-radius: 25px;
+    }
+
+    #home-text {
+        width: 100%;
+        float: none;
+        margin-left: -35px;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    #home-img{
+        display: none;
+    }
+
+    .project-grid {
+        margin-left: 35%;
+        margin-right: 12%;
+    }
+
+    #contact h2 {
+        padding: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        border-bottom: 3px solid white;
+    }
+
+    #contact-icons {
+        margin: 20px auto 0 auto;
+    }
+
+    #TechDay2017 #img-div-1 {
+        width: 25%;
+        margin-left: 10%;
+    }
+
+    #TechDay2017 #text-div-1 {
+        width: 45%;
+        margin: -55% auto 0 36%;
+    }
+
+    #TechDay2017 #img-div-2 {
+        width: 20%;
+        margin: 0 auto 40px 36%;
+    }
+
+    #TechDay2018 #img-div-1 {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    #TechDay2018 #text-div-1 {
+        width: 70%;
+        margin: 20px 0 30px 15%;
+    }
+}
+
+@media (max-width: 768px) {
+    #nav-link-div {
+        margin-top: 10px;
+    }
+    .nav-item {
+        padding-left: 20px;
+    }
+
+    .project-grid {
+        margin: 0 auto 0 auto;
+    }
+
+    #TechDay2017 #img-div-1 {
+        width: 80%;
+        height: 80%;
+        margin: 0 auto 0 auto;
+    }
+
+    #TechDay2017 #text-div-1 {
+        width: 80%;
+        margin: 20px auto 0 auto;
+    }
+
+    #TechDay2017 #img-div-2 {
+        width: 50%;
+        margin: 0 auto 50px auto;
+    }
+
+    #TechDay2018 #img-div-1 {
+        width: 100%;
+        margin: 0 auto 0 auto;
+    }
+
+    #TechDay2018 #text-div-1 {
+        width: 100%;
+        margin: 20px auto 40px auto;
+    }
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* Nav Header CSS */
+
+nav {
+    background-color: #4942E4;
+}
+
+#Title {
+    color: white;
+    font-weight: bold;
+    font-family: roboto-bold;
+}
+
+#Title:hover {
+    color: white;
+}
+
+#Link {
+    color: white;
+    font-weight: bold;
+    font-family: roboto-bold;
+}
+
+/* Main Section CSS */
+
+#home {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #4942E4;
+    padding: 10% 0 15% 15%;
+}
+
+#home-text h2 {
+    font-size: 4em;
+    font-family: 'coolvetica rg';
+}
+
+#home-text #p1 {
+    font-size: 1.25em;
+    margin-left: 5px;
+    margin-bottom: -5px;
+    font-family: roboto-regular;
+}
+
+#home-text #p2 {
+    font-size: 1.25em;
+    font-family: roboto-regular;
+    margin-bottom: 40px;
+}
+
+#home-text h2, #home-text p {
+    color: white;
+}
+
+#home-text a {
+    background: #11009E;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    font-family: roboto-regular;
+}
+
+#home-text a:hover {
+    background: #8696FE;
+    color: #11009E;
+}
+
+/* Project Section CSS */
+
+#projects {
+    display: grid;
+    width: 100%;
+    background: #8696FE;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    gap: 50px 50px;
+    margin-top: 20px;
+}
+
+.project-item {
+    border: 4px solid black;
+    border-radius: 25px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    background: white;
+    text-decoration: none;
+}
+
+.project-item:hover {
+    background: #F2F2F2;
+}
+
+#p-icon {
+    font-size: 5em;
+    color: black;
+    margin-top: 35px;
+}
+
+.project-item p {
+    margin-top: 15px;
+    font-family: roboto-bold;
+    color: black;
+}
+
+/* Contact Section CSS */
+
+#contact {
+    width: 100%;
+    background: #4942E4;
+    padding: 5% 0 5% 0;
+}
+
+#contact h2 {
+    width: fit-content;
+    font-family: 'coolvetica rg';
+    font-size: 3em;  
+}
+
+#contact h2, #contact-icons{
+    color: white;
+    text-align: center;
+}
+
+#contact-icons {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    width: fit-content;
+
+}
+
+#contact-icons a {
+    color: white;
+    font-size: 3em;
+    padding: 0 20px 0 20px;
+}
+
+#contact-icons #last {
+    grid-column: 1 / 3;
+}
+
+#contact-icons a:hover {
+    color: white;
+}
+
+.c-icon:hover {
+    position: relative;
+    animation: moveIcon 1s ease infinite;
+}
+
+@keyframes moveIcon {
+    0% {
+        top: 10px;
+    }
+
+    100% {
+        top: 20px;
+    }
+}
+
+/* Certificates */
+
+#Certificates {
+    height: 100%;
+    background: #4942E4;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'coolvetica rg';
+}
+
+/* Adapted from: https://www.w3schools.com/howto/howto_js_slideshow.asp */
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    text-decoration: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* College Projects */
+
+.background {
+    background: #4942E4;
+}
+
+#TechDay2017 h2, #TechDay2018 h2 {
+    font-size: 1.5em;
+    color: white;
+    font-family: roboto-bold;
+}
+
+/* Adapted from: https://www.w3schools.com/howto/howto_js_vertical_tabs.asp */
+
+/* Style the tab */
+.horizontal-tabs {
+    float: left;
+    border-radius: 15px;
+    background-color: #8696FE;
+    width: 100%;
+    height: auto;
+}
+
+/* Style the buttons that are used to open the tab content */
+.horizontal-tabs button {
+    display: inline-grid;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: fit-content;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.horizontal-tabs button:hover {
+   background-color: #8080ff;
+}
+
+/* Create an active/current "tab button" class */
+.horizontal-tabs button.active {
+    background-color: #8080ff;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    float: left;
+    padding: 0px 12px;
+    width: 70%;
+    border-left: none;
+    height: 300px;
+}
+
+/* TechDay2017 */
+
+#TechDay2017 {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+}
+
+#TechDay2017 h2 {
+    display: inline-block;
+    margin: 20px 10px 20px 5%;
+}
+
+#TechDay2017 #language {
+    display: inline-block;
+}
+
+#TechDay2017 #img-div-1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+#TechDay2017 #text-div-1 {
+    color: white;
+    font-family: roboto-regular;
+}
+
+#TechDay2017 #img-div-2 .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: flex-start;
+}
+
+#TechDay2017 #img-div-2 .grid-img img {
+    width: 100%;
+    height: 100%;
+}
+
+#github-btn {
+    text-align: center;
+}
+
+#github-btn a {
+    width: 100px;
+    height: 55px;
+    padding: 15px;
+    background: black;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#github-btn i, #github-btn p {
+    display: inline-block;
+}
+
+#github-btn p {
+    font-family: roboto-bold;
+}
+
+#TechDay2018 {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+}
+
+#TechDay2018 h2 {
+    display: inline-block;
+    margin: 20px 10px 0 5%;
+}
+
+#TechDay2018 #img-div-1 img {
+    width: 100%;
+    margin: auto;
+    border-radius: 15px;
+}
+
+#TechDay2018 #text-div-1 {
+    color: white;
+    font-family: roboto-regular;
+}
+
+#sub-head {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+#language {
+    display: inline-block;
+    width: 100px;
+    background: #11009E;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    font-family: roboto-bold;
+}
+
+/*----Test----*/
+
