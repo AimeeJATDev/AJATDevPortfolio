@@ -2,19 +2,19 @@
 
 @font-face {
     font-family: 'coolvetica rg';
-    src: url('../Fonts/coolvetica/coolvetica rg.otf') format('opentype');
+    src: url('../Fonts/coolvetica/coolvetica\ rg.otf') format('opentype');
 }
 
 /* Roboto Font: https://fonts.google.com/specimen/Roboto */
 
 @font-face {
     font-family: 'roboto-regular';
-    src: url('../Fonts/roboto/roboto-regular.ttf') format('truetype');
+    src: url('../Fonts/roboto/Roboto-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'roboto-bold';
-    src: url('../Fonts/roboto/roboto-bold.ttf') format('truetype');
+    src: url('../Fonts/roboto/Roboto-Bold.ttf') format('truetype');
 }
 
 
